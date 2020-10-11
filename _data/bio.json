@@ -6,7 +6,7 @@
     "email": "jasmineyshih@gmail.com",
     "phone": "217-220-9600",
     "website": "https://jasmineyshih.github.io",
-    "summary": "I am a web developer at Verizon Media (Yahoo!) with a degree in Computer Science from UIUC. I am interested in areas of web design/development, interactive visualizations, and virtual reality.",
+    "summary": "I am a web developer at Verizon Media (Yahoo!) working on an internal web application for cloud projects onboarding and tracking. I graduated from UIUC in May 2019 with a bachelor's degree in Computer Science.",
     "location": {
       "address": "",
       "postalCode": "61801",
@@ -34,19 +34,22 @@
   },
   "interests": [
     {
-      "name": "internet of things",
-      "keywords": [
-        "Arduino",
-        "TI MSP430"
-      ]
-    },
-    {
-      "name": "data mining",
+      "name": "web development",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "interactive web visualizations",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "HCI",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "virtual reality",
       "keywords": [
       ]
     }
@@ -78,39 +81,25 @@
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "institution": "University of Illinois at Urbana-Champaign",
+      "area": "Computer Science",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
-      "gpa": "",
+      "startDate": "2015-08-24",
+      "endDate": "2019-05-16",
+      "gpa": "3.90",
       "courses": [
       ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
+      "company": "Verizon Media",
       "position": "Web Developer",
       "website": "",
-      "startDate": "2015-08-01",
+      "startDate": "2019-08-05",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
-      "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
-    },
-    {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
       "summary": "",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
       ]
     }
   ],
@@ -143,15 +132,15 @@
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "Winner of SIGGRAPH Student Research Competition",
+      "date": "2019",
+      "awarder": "SIGGRAPH",
+      "summary": "Won first place in the undergraduate category in the Student Research Competition at SIGGRAPH 2020."
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
+      "title": "Graduated with Highest Honors",
+      "date": "2019",
+      "awarder": "University of Illinois at Urbana-Champaign",
       "summary": "My team won first place in 2015.  See my portfolio site for more details."
     }
   ],
