@@ -1,44 +1,36 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
-title: Micromouse
-permalink: projects/micromouse
+image: images/avl-square.png
+title: Remodeling Website of Advanced Visualization Lab
+permalink: projects/avlwebsite
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2018-05-01
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+  - Internship
+  - Front-end Web Development
+  - Fiddler Innovation Fellowship Award
+summary: As a web development intern, I worked alongside a design intern to give a new look to the Advanced Visualization Lab at NCSA.
 ---
 
-<div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
-</div>
+During my internship at the Advanced Visualization Lab (AVL) at the National Center for Supercomputing Applications while I was a student at UIUC, I developed a new WordPress theme for the AVL's website based on our design intern [Dawn Nguyen's designs](http://dawnuxi.com/avl.html).
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+The AVL's original website was outdated in style, difficult to navigate, and not mobile-friendly. I wrote templates in PHP to generate blog posts, coded animation-rich static pages for displaying information about the lab, and made the website responsive for easy navigation on mobile. To bring Dawn's vibrant designs to life, I worked closely with her as I implemented her design page by page. Learning to use PHP to define page templates in WordPress was a bit of a challenge, but I was nonetheless able to get the Works and Events pages to look close to the designs.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+I received the <b>Fiddler Innovation Award</b> for this web developmnt work in October 2018. See [this NCSA story](http://www.ncsa.illinois.edu/news/story/16_students_receive_ncsas_fiddler_innovation_fellowships) to read more about the award.
 
-Here is some code that illustrates how we read values from the line sensors:
+My work has been live at [http://avl.ncsa.illinois.edu/](http://avl.ncsa.illinois.edu/) since summer 2018. Below are some screenshots showing the website's change in looks. 
 
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
+## Old Website
+<img class="ui image" src="../images/old-avl-screenshot.png">
+↪ The homepage of the AVL's website used in 2013-2018.
 
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+## Select Screenshots of the New Look
+<img class="ui image" src="../images/avl-screenshot.png">
+↪ The What We do -> Process static page.
+
+<img class="ui image" src="../images/avl-events-screenshot.png">
+↪ The Events page that automatically puts highlights the newest event post at the top of the timeline.
 
 
 

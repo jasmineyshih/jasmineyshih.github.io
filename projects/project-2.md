@@ -1,25 +1,40 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
-title: Vacay
-permalink: projects/vacay
+image: images/unity-vis-square.jpg
+title: Building Interactive Cinematic Scientific Visualization with Unity
+permalink: projects/unityvis
 # All dates must be YYYY-MM-DD format!
-date: 2015-12-15
+date: 2019-05-01
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+  - Research
+  - Scientific Visualization
+  - Unity Engine
+  - ACM SIGGRAPH Poster
+  - Student Research Competition Winner
+summary: I built an interactive cinematic scientific visualization of the moon formation using the Unity game engine, and conducted a user study to examine its effects on school-age viewers.
 ---
+In my senior year of college, I conducted research on building interactive cinematic scientific visualizations using the Unity game engine as an intern at the NCSA Advanced Visualization Lab under the guidance of my mentors [Kalina Borkiewicz](http://publish.illinois.edu/kalina/) and [AJ Christensen](https://www.ajchristensen.com/). This project involved both technical and human components and left a significant impact on my career interests and plans.
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+## Visualization Demo
+<div class="ui embed" data-source="youtube" data-id="8lm2biVn_yM"></div>
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+## Research Stages
+I like to think that I played introductory roles of a computer scientist, a visualization developer, and an HCI researcher in the three different stages of this research project.
+1. Testing the performance of and experimenting with Unity's
+particle system using large datasets
+2. Developing an interactive cinematic visualization of a scientific model of moon formation
+3. Studying the effects of our visualization on young viewers
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
 
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
- 
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+## Poster and Abstract Submission
+I submitted the project as a poster to SIGGRAPH 2019 and my submission was accepted. The poster abstract was published in the ACM SIGGRAPH 2019 proceedings here: [https://doi.org/10.1145/3306214.3338588](https://doi.org/10.1145/3306214.3338588).
+
+<img class="ui image" src="../images/siggraph-poster.jpg">
+↪ The research poster.
+
+## Presentations at SIGGRAPH 2019
+I presented my research methods and findings at two 75-minute poster sessions as well as the Student Research Competition. I was selected the <b>first place winner</b> in the undergraduate category at the competition. You can read about my interview with SIGGRAPH in [this ACM SIGGRAPH blog post](https://blog.siggraph.org/2019/10/scientific-visualization-in-game-engines-get-to-know-the-2019-undergrad-student-research-winner.html/). 
+
+<img class="ui image" src="../images/siggraph-src-presentation.jpg">
+↪ A photo of my 10-minute presentation to a panel of judges and conference attendees.

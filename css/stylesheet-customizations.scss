@@ -10,6 +10,14 @@ body {
   // background-color: #f2f2f2;;
 }
 
+.header, .label, .menu, h1, h2, h3, h4, h5, .ui.basic.button {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.ui.menu .item, .ui.basic.button {
+  font-weight: bold !important;
+}
+
 // Customize the menubar color
 .ui.menu {
   // background: $background-start;

@@ -1,61 +1,25 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
-title: Cotton
-permalink: projects/cotton
+image: images/emoji-vis-square.png
+title: Studying Usage Patterns in Emoji Expressions
+permalink: projects/emojivis
 # All dates must be YYYY-MM-DD format!
-date: 2014-04-12
+date: 2019-07-01
 labels:
-  - Lisp
-  - GitHub
-summary: A text adventure game I developed for ICS 313.
+  - Interactive Web Visualization
+  - Emoji Expressions
+  - Research
+  - IEEE VIS Poster
+summary: I developed three interactive visualizations with emoji data obtained from an emoji-only location check-in mobile app Opico.
 ---
+In Spring 2019, I worked with professors [Eric Shaffer](https://cs.illinois.edu/about/people/faculty/shaffer1) and [Ranjitha Kumar](http://ranjithakumar.net/) to develop visual anaylytics tools to visualize and study patterns in over 5000 entries of emoji expressions (strings of up to five emoji) posted by users of Opico, an emoji-first and location-centric social mobile platform. The Opico app is no longer being maintained or developed, but you can still access the interactive web visualizations at [https://jasmineyshih.github.io/opicoVis/](https://jasmineyshih.github.io/opicoVis/).
 
-<img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
+## Visualizations Demo
+<iframe src="https://player.vimeo.com/video/361162822" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/361162822">[VIS19 Preview] Using Visual Analytics to Understand Emoji-first Communication (poster)</a> from <a href="https://vimeo.com/vgtcommunity">VGTCommunity</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-Cotton is a horror-esque text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+## Poster Submission to IEEE VIS 2019
+I submitted the project results as a poster to IEEE VIS 2019 and presented the poster at the conference. You can read more about the project in the [poster summary](https://jasmineyshih.github.io/emoji_vis_poster_summary.pdf).
 
-To give you a flavor of the game, here is an excerpt from one run:
-
-<hr>
-
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
-
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
-
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
-
-pickup candle
-- you are now carrying the candle -
-
-pickup match
-- you are now carrying the match -
-
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
-
-<hr>
-
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
-
+<img class="ui image" src="../images/vis-poster.png">
