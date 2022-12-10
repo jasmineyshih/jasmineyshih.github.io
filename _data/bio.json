@@ -1,26 +1,24 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
-    "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "name": "Jasmine Y. Shih",
+    "label": "Master's Student in HCI",
+    "picture": "https://jasmineyshih.github.io//img/headshot.jpg",
+    "email": "jyshih@stanford.edu",
+    "phone": "217-220-9600",
+    "website": "https://jasmineyshih.github.io",
+    "summary": "I am a computer science master's student specializing in Human-Computer Interaction (HCI) at Stanford University. I got my bachelor's degree in computer science at the University of Illinois at Urbana-Champaign (UIUC).",
+    "location": { "address": "", "postalCode": "94305", "city": "Stanford", "countryCode": "USA", "region": "California" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "github", "username": "jasmineyshih", "url": "http://github.com/jasmineyshih" },
+      { "network": "linkedin", "username": "jasmineyshih", "url": "http://linkedin.com/in/jasmineyshih" }
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Human-Computer Interaction Research" },
+    { "name": "Data Visualization" },
+    { "name": "Education Technology" },
+    { "name": "Interactive Computing" },
+    { "name": "Social Computing" }
   ],
   "skills": [
     {

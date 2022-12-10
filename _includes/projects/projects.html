@@ -1,12 +1,15 @@
 <div style="background-color: var(--tf-projects-bg-color)" class="bg-gradient py-3" id="projects">
   <div class="container">
-    <div class="row mb-3">
-      <div class="col-md-6">
-        <h1 class="display-4 text-start">Projects</h1>
+    <div class="row mb-2" style="position: relative;">
+      <div class="col-sm-12 col-md-5">
+        <h1 class="display-6 text-start">Coding Projects</h1>
+      </div>
+      <div class="col-sm-12 col-md-7">
+        <div class="click-tip">👇 click on any card to learn more about a project</div>
       </div>
     </div>
 
-    <div class="vstack gap-3">
+    <div class="vstack gap-0">
       {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
       {% for page in project_pages %}
         {% unless page.draft %}
