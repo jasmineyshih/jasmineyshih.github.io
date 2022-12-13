@@ -8,7 +8,8 @@ published: true
 labels:
   - Research Poster
   - Web Visualization
-summary: "I developed three interactive visualizations with emoji data obtained from an emoji-only location check-in mobile app Opico."
+  - Social Media Data
+summary: "Three interactive visualizations of emoji data obtained from an emoji-only location check-in mobile app Opico"
 ---
 
 In Spring 2019, I worked with professors [Eric Shaffer](https://cs.illinois.edu/about/people/faculty/shaffer1) and [Ranjitha Kumar](http://ranjithakumar.net/) to develop visual anaylytics tools to visualize and study patterns in over 5000 entries of emoji expressions (strings of up to five emoji) posted by users of Opico, an emoji-first and location-centric social mobile platform. The Opico app is no longer being maintained or developed, but you can still access the interactive web visualizations at [https://jasmineyshih.github.io/opicoVis/](https://jasmineyshih.github.io/opicoVis/).
