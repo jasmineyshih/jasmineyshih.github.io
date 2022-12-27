@@ -4,6 +4,7 @@ type: project
 image: img/unity-viz/unity-vis-square.jpg
 title: "Building Interactive Cinematic Scientific Visualization with Unity"
 date: 2019
+date_shown: "Spring 2019"
 published: true
 labels:
   - Research Poster

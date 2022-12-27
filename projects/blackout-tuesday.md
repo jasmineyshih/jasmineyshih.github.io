@@ -4,6 +4,7 @@ type: project
 image: img/bot/bot-square.png
 title: "Visualizing the Blackout Tuesday Phenomenon"
 date: 2020
+date_shown: "Fall 2020"
 published: true
 labels:
   - Web Visualization

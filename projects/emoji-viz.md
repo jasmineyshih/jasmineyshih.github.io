@@ -4,6 +4,7 @@ type: project
 image: img/emoji-viz/emoji-vis-square.png
 title: "Visualizing Usage Patterns in Emoji Expressions"
 date: 2019
+date_shown: "Spring 2019"
 published: true
 labels:
   - Research Poster

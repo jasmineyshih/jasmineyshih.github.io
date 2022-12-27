@@ -4,6 +4,7 @@ type: project
 image: img/avl-website/avl-square.png
 title: "Remodeling Advanced Visualization Lab's Website"
 date: 2018
+date_shown: "Spring 2018"
 published: true
 labels:
   - Web Development

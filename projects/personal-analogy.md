@@ -4,6 +4,7 @@ type: project
 image: img/personal-analogy/analogy-square.png
 title: "Personalized Analogy Generator for Large Prices"
 date: 2022-03
+date_shown: "Winter 2022"
 published: true
 labels:
   - Web Visualization

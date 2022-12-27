@@ -4,6 +4,7 @@ type: project
 image: img/viral-viz/viral-square.png
 title: "Viral Hashtag Progression Visualizer"
 date: 2021
+date_shown: "Fall 2021"
 published: true
 labels:
   - Web Visualization
