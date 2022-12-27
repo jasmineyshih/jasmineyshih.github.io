@@ -6,7 +6,7 @@
     "email": "jyshih@stanford.edu",
     "phone": "217-220-9600",
     "website": "https://jasmineyshih.github.io",
-    "summary": "I am a computer science master's student specializing in Human-Computer Interaction (HCI) at Stanford University. I got my bachelor's degree in computer science at the University of Illinois at Urbana-Champaign (UIUC).",
+    "summary": "I am a computer science master's student specializing in Human-Computer Interaction (HCI) at Stanford University. I love building interactive web visualizations, especially with social data and for educational purposes.",
     "location": { "address": "", "postalCode": "94305", "city": "Stanford", "countryCode": "USA", "region": "California" },
     "profiles": [
       { "network": "github", "username": "jasmineyshih", "url": "http://github.com/jasmineyshih" },
